@@ -1,0 +1,47 @@
+# Author: Atif Qadir
+# Date: 10/9/26
+# Description: This notebook is a testing area for processing Versailles images.
+
+Milestone 1: Identify the types of image issues with 1 specific example of each
+
+A. Physical Variation:
+1. Stains (includes smudges, oil)
+2. Lineweight variation
+3. Shading variation (this is global)
+4. Wall drawing convention variation (distance between lines, count of lines, dashes vs fill, type of dashes; this is global)
+5. Ink drops (A1)
+6. Unofficial text (also bleed through)
+7. Unofficial lines, graphics
+8. Stamps
+9. Non-straight lines (A1)
+
+B. Image Degradation:
+1. Shading desaturation (A3)
+2. Lineweight desaturation (A2)
+3. Folds
+
+C. Image Capture Variation:
+1. Brightness variation (this is global)
+2. Contrast variation (this is global)
+3. Noise (A1)
+
+D. Not in Scope at the moment:
+1. Symbols
+2. Words
+3. Sections of buildings missing
+4. Scale missing
+5. Scale variation
+6. Orientation missing
+7. Orientation variation
+8. Key plan missing
+
+Examples: 
+https://drive.google.com/file/d/10lSOmXTlBIWivgWfaWdRyK52TFfCVU3y/view?usp=sharing A1, A2, A3, A4, A5, A6, A7, A8, B3 
+https://drive.google.com/file/d/1Ub-Z8c-ArG1LmIRUbTwxOW-QfIg-qUOU/view?usp=sharing A1, A2, A4, A5, A7, A8, A9, B3, C3 
+https://drive.google.com/file/d/1CAXLM8AS91hSV1R0HA0_u1ZDtARy5DiG/view?usp=sharing A1, A4, A5, A6, A7, B2, C3
+
+Milestone 1B: Verify what problems the original research team chose to focus on.
+*Identify the walls (they can be easily confused with other things)
+Notes pg "alterations" not "altercations" 
+steerable filters 
+CNN = Unet
